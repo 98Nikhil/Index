@@ -1,15 +1,102 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
-    <link rel="stylesheet" href="styles.css"
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>How to use Git and GitHub</title>
+  <meta name="description" content="Learn to use Git and GitHub">
+  <meta name="keywords" content="git,github,repository">
+  <script src="https://kit.fontawesome.com/7b7678c28a.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
-    <h1>Git Demo Page</h1>
-    
-    <script src="app.js"></script>
+  <header>
+    <nav id="navbar">
+      <div class="container">
+        <h1><a href="14_Git_and_GitHub.html"><span class="text-primary"> GIT & GITHUB</span></a></h1>
+        <ul>
+          <li><a href="#intro"> Repository</a></li>
+          <li><a href="#installation"> Upload</a></li>
+          <li><a href="#git"> Branch</a></li>
+          <li><a href="#github"> Clone</a></li>
+        </ul>
+      </div>
+    </nav>
+    <div id="showcase">
+      <div class="container">
+        <div class="showcase-content">
+          <h1>Introduction to GIT AND GITHUB</h1>
+          <a href="#intro" class="btn">Learn More</a>
+
+        </div>
+      </div>
+    </div>
+  </header>
+  <section id="intro" class="bg-primary">
+      <h2><a id="intro"> Creating and Initializing a New Repository</a></h2>
+      <p>To initialize a Repository: </p>
+      <p>
+        1. Open Git Bash <br>
+        2. Change the Directory to the Folder containing Files that need to be uploaded to GitHub <br>
+        3. On Git Bash, to Initialize a Repository, execute: <br>
+         <span class="bold"> git init </span>       <br>
+        4. To view files and folders and check status execute: <br>
+      <span class="bold">ls -a   </span>       <br>
+    <span> git status     </span> <br>
+        5. You can add files to the Repository individually or all at once <br>
+      <span>1. To add a file (named "index.html") individually, excute: </span><br>
+    <span class="bold">    git add index.html</span> <br>
+    <span> 2. To add all the files at once, execute:</span> <br>
+    <span class="bold">     git add . </span> <br>
+        6. Once added, commit the changes made to the repository by executing: <br>
+      <span class="bold"> git commit -m "added files to repo"</span> <br>
+        7. To check the history of commits, execute: <br>
+      <span class="bold">git log </span><br>
+  </section>
+  <section id="intro" class="bg-light">
+      <h2><a id="installation"> Uploading the Repository to GitHub</a></h2>
+      <p>
+        1. Open GitHub on your browser and create your GitHub Account <br>
+        2. In GitHub click on the "+" button at the top-right corner of the webpage and select New Repository in the Drop-down Menu <br>
+        3.Name you Repository and add other necessary details. Once done, Click on Create a Repository <br>
+        4. In the new page that opens, you get 3 options. "push an existing repository from the command line" is our preferred option <br>
+        5. Under "push an existing repository from the command line" copy the codes one at a time and execute them in Git Bash i,e <br>
+          <span> 1. First Execute: </span> <br>
+        <span class="bold"> git remote add origin https://github.com/Username/Reponame.git </span> <br>
+       <span>2. And then execute </span> <br>
+       <span class="bold">   git push -u origin master </span> <br>
+        6. Reload the page, and there you have your first GitHub Repository! <br>
+      </p>
+       
+  </section>
+  <section id="git" class="bg-primary">
+      <h2><a id="installation"> Branching in Git</a></h2>
+      <p>
+        A branch is like a different timeline to work on a specific part of the project so that it does not affect the main part of the project<br>
+        1. To obtain the list of branches, execute:<br>
+        <span class="bold"> git branch </span> <br>
+        2. To create a new branch, execute:<br>
+        <span class="bold"> git branch branch1</span> <br>
+        3.To return to master branch, execute:<br>
+        <span class="bold"> git checkout master </span> <br>
+        4. To merge a branch to the master branch, execute:<br>
+        <span class="bold"> git merge branch1 </span> <br>
+      </p>
+       
+  </section>
+  <section id="github" class="bg-light">
+      <h2><a id="installation"> Cloning - Downloading a Repository present on GitHub to your computer</a></h2>
+      <p>
+        1. On GitHub, go to the Repository you wanted to clone and Copy its URL<br>
+        2. On your computer, create a new folder. Do NOT clone a Repository inside another Repository<br>
+        3.Change the directory on Git Bash to your new folder<br>
+        4. On Git Bash, Execute:<br>
+        <span class="bold"> git clone url </span> <br>
+        5. You can find the cloned Repository in the New Folder!<br>
+      </p>
+       
+  </section>
+  
+  
 </body>
 </html>
