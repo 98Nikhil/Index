@@ -45,7 +45,7 @@ A branch is like a different timeline to work on a specific part of the project 
 Cloning - Downlooading a Repository present on GitHub to your computer
 1. On GitHub, go to the Repository you wanted to clone and Copy its URL
 2. On your computer, create a new folder. Do NOT clone a Repository inside another Repository
-3. Chnage the directory on Git Bash to your new folder
+3. Change the directory on Git Bash to your new folder
 4. On Git Bash, Execute:
       git clone url
 You can find the cloned Repository in the New Folder!
