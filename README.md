@@ -4,7 +4,7 @@ To initialize a Git Repository:
 1. Open Git Bash
 2. Change the Directory to the Folder containing Files that need to be uploaded to GitHub
 3. On Git Bash, execute:
-   ->  git init        #This will initialize a repository
+   1.  git init        #This will initialize a repository
 4. Execute:
    ->  ls -a           #View files and folders in the repository
    ->  git status      #check status of the repo
