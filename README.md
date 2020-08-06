@@ -4,19 +4,19 @@ To initialize a Git Repository:
 1. Open Git Bash
 2. Change the Directory to the Folder containing Files that need to be uploaded to GitHub
 3. On Git Bash, execute:
-     git init        #This will initialize a repository
+   ->  git init        #This will initialize a repository
 4. Execute:
-     ls -a           #View files and folders in the repository
-     git status      #check status of the repo
+   ->  ls -a           #View files and folders in the repository
+   ->  git status      #check status of the repo
 5. You can add files to the Repository individually or all at once
    a. To add a file (named "index.html") individually, excute:
-        git add index.html
+      ->  git add index.html
    b. To add all the files at once, execute:
-       git add .
+      -> git add .
 6. Once added, commit the changes made to the repository by executing:
-       git commit -m "added files to repo"
+       -> git commit -m "added files to repo"
 7. To check the history of commits, execute:
-       git log
+       -> git log
 
 Uploading the Repository to GitHub
 1. Open GitHub on your browser and create your GitHub Account
