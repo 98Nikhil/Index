@@ -12,7 +12,7 @@ To initialize a Git Repository:
    1. To add a file (named "index.html") individually, excute:
       1)  git add index.html
    2. To add all the files at once, execute:
-     1) git add .
+      1) git add .
 6. Once added, commit the changes made to the repository by executing:
        1. git commit -m "added files to repo"
 7. To check the history of commits, execute:
@@ -25,9 +25,9 @@ Uploading the Repository to GitHub
 4. In the new page that opens, you get 3 options. "push an existing repository from the command line" is our preferred option
 5. Under "push an existing repository from the command line" copy the codes one at a time and execute them in Git Bash i,e
    1. First Execute:
-       a. git remote add origin https://github.com/Username/Reponame.git
+       1) git remote add origin https://github.com/Username/Reponame.git
    2. And then execute
-       a. git push -u origin master
+       1) git push -u origin master
  6. Reload the page, and there you have your first GitHub Repository!
 
 Branches in Git
