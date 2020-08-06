@@ -3,11 +3,11 @@ This is my first GitHub repository wherein I simply try to upload my html,css an
 To initialize a Git Repository:
 1. Open Git Bash
 2. Change the Directory to the Folder containing Files that need to be uploaded to GitHub
-3. On Git Bash, execute:
-   1.  git init        #This will initialize a repository
-4. Execute:
-   1.  ls -a           #View files and folders in the repository
-   2.  git status      #check status of the repo
+3. On Git Bash, to Initialize a Repository, execute:
+   1.  git init        
+4. To view files and folders and check status execute:
+   1.  ls -a          
+   2.  git status      
 5. You can add files to the Repository individually or all at once
    1. To add a file (named "index.html") individually, excute:
       1)  git add index.html
@@ -35,8 +35,8 @@ A branch is like a different timeline to work on a specific part of the project 
 
 1. To obtain the list of branches, execute:
       1. git branch
-2. To go to a new branch, execute:
-      1. git branch branch1       #creates new branch called branch1 and any work done now is stored in this branch
+2. To create a new branch, execute:
+      1. git branch branch1       
 3.To return to master branch, execute:
       1.git checkout master
 4. To merge a branch to the master branch, execute:
