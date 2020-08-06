@@ -48,6 +48,6 @@ Cloning - Downlooading a Repository present on GitHub to your computer
 3. Change the directory on Git Bash to your new folder
 4. On Git Bash, Execute:
       1. git clone url
-You can find the cloned Repository in the New Folder!
+5. You can find the cloned Repository in the New Folder!
 
       
