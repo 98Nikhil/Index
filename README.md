@@ -40,9 +40,9 @@ A branch is like a different timeline to work on a specific part of the project 
 3.To return to master branch, execute:
       1.git checkout master
 4. To merge a branch to the master branch, execute:
-      1. git merge abc
+      1. git merge branch1
       
-Cloning - Downlooading a Repository present on GitHub to your computer
+Cloning - Downloading a Repository present on GitHub to your computer
 1. On GitHub, go to the Repository you wanted to clone and Copy its URL
 2. On your computer, create a new folder. Do NOT clone a Repository inside another Repository
 3. Change the directory on Git Bash to your new folder
