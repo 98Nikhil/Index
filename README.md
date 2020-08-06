@@ -10,9 +10,9 @@ To initialize a Git Repository:
    2.  git status      #check status of the repo
 5. You can add files to the Repository individually or all at once
    1. To add a file (named "index.html") individually, excute:
-      a.  git add index.html
+      1)  git add index.html
    2. To add all the files at once, execute:
-     a. git add .
+     1) git add .
 6. Once added, commit the changes made to the repository by executing:
        1. git commit -m "added files to repo"
 7. To check the history of commits, execute:
